@@ -148,7 +148,7 @@ h1 {
 
 .video-table thead th {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-align: center;
     padding: 0.25rem 0.4rem;
 }
@@ -159,8 +159,8 @@ h1 {
 }
 
 .video-table video {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 0.5rem;
     background: #000;
 }
