@@ -1,4 +1,3 @@
-
 :root {
     --bg: #fafafa;
     --text: #111827;
@@ -142,13 +141,14 @@ h1 {
 }
 
 .video-table {
+    
     border-collapse: separate;
     border-spacing: 0.75rem 0.85rem;
 }
 
 .video-table thead th {
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: center;
     padding: 0.25rem 0.4rem;
 }
@@ -159,18 +159,30 @@ h1 {
 }
 
 .video-table video {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 0.5rem;
     background: #000;
 }
 
 .transcript {
-    width: 110px;
+    width: 100px;
     text-align: left;
-    font-size: 0.675rem;
+    font-size: 0.775rem; 
 }
-
+.table-divider {
+border: none;
+height: 2px;
+background-color: #999;
+margin: 10px 0 40px 0;  /* 위 60px, 아래 40px 여백 */
+}
+.comparison h2 {
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
 /* ------ Footer ------ */
 footer {
     text-align: center;
