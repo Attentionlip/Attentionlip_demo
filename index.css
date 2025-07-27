@@ -181,6 +181,14 @@ height: 2px;
 background-color: #999;
 margin: 10px 0 40px 0;  /* 위 60px, 아래 40px 여백 */
 }
+.references {
+    max-width: 1300px;
+    margin: 0 auto 4rem;
+    padding: 0 0.5rem;
+    display: grid;
+    place-content: auto;
+
+}
 
 /* ------ Footer ------ */
 footer {
